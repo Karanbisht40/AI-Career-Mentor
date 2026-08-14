@@ -158,11 +158,11 @@ Make this more visual too:
 | 📹 MediaDevices API | Interview camera |
 
 
----
+```
 
 ## Project Structure
 
-```text
+
 AiMentor/
 ├── frontend/
 │   ├── src/
