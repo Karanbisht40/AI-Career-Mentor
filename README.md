@@ -19,23 +19,6 @@
 
 ---
 
-## 📸 Application Preview
-
-<div align="center">
-
-<img src="./screenshots/dashboard.png" width="48%" />
-<img src="./screenshots/roadmap.png" width="48%" />
-
-<br/>
-
-<img src="./screenshots/chat.png" width="48%" />
-<img src="./screenshots/resume.png" width="48%" />
-
-<br/>
-
-<img src="./screenshots/interview.png" width="70%" />
-
-</div>
 
 ## Overview
 
@@ -177,6 +160,23 @@ AiMentor/
 ├── README.md
 
 ```
+## 📸 Application Preview
+
+<div align="center">
+
+<img src="./screenshots/dashboard.png" width="48%" />
+<img src="./screenshots/roadmap.png" width="48%" />
+
+<br/>
+
+<img src="./screenshots/chat.png" width="48%" />
+<img src="./screenshots/resume.png" width="48%" />
+
+<br/>
+
+<img src="./screenshots/interview.png" width="70%" />
+
+</div>
 
 ## Frontend Highlights
 
