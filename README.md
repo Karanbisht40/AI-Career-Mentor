@@ -159,9 +159,9 @@ Make this more visual too:
 
 
 ```
-
 ## Project Structure
 
+```text
 
 AiMentor/
 ├── frontend/
