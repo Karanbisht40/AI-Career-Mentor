@@ -1,0 +1,37 @@
+{
+    "name": "ai-career-mentor-server",
+    "version": "1.0.0",
+    "description": "Backend boilerplate for the AI Career Mentor application.",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node src/server.js"
+    },
+    "keywords": [
+        "express",
+        "mongodb",
+        "mongoose",
+        "jwt",
+        "backend"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@google/genai": "^2.15.0",
+        "axios": "^1.11.0",
+        "bcrypt": "^5.1.1",
+        "cloudinary": "^2.6.0",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.1",
+        "express": "^5.1.0",
+        "express-validator": "^7.2.1",
+        "helmet": "^8.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.18.0",
+        "morgan": "^1.10.1",
+        "multer": "^2.0.2",
+        "pdf-parse": "^2.4.5"
+    }
+}

@@ -212,16 +212,6 @@ It includes:
 - MongoDB connectivity setup
 - AI service integrations with Gemini
 
-## Prerequisites
-
-Before running the project locally, ensure you have the following installed:
-
-- Node.js 18+
-- npm or pnpm
-- MongoDB instance or MongoDB Atlas connection string
-- Google Gemini API key
-- Cloudinary credentials (optional for future upload flows)
-
 ## API Workflow Overview
 
 ### Authentication
@@ -269,4 +259,3 @@ Potential improvements for this project include:
 ## Author
 
 Built as an AI-powered career mentor platform for professional growth and job readiness.
-# AI-Career-Mentor
