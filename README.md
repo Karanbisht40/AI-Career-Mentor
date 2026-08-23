@@ -16,8 +16,8 @@
 ![Gemini](https://img.shields.io/badge/Google%20Gemini-AI-4285F4?style=for-the-badge&logo=google)
 
 </div>
-
 ---
+
 
 
 ## Overview
@@ -28,6 +28,14 @@ AiMentor is designed for job seekers and career switchers who want a structured,
 - Resume analysis and optimization guidance
 - Mock interview question generation and answer evaluation
 - Secure authentication and profile management
+
+---
+
+### 🚀 Live Demo | 📂 GitHub Repository
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-AiMentor-success?style=for-the-badge)](https://ai-career-mentor-1-k031.onrender.com)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-black?style=for-the-badge&logo=github)](https://github.com/Karanbisht40/AI-Career-Mentor)
 
 ## ✨ Features
 
