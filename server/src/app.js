@@ -2,8 +2,7 @@
 // This file keeps framework setup separate from the server startup logic.
 import path from "path";
 import { fileURLToPath } from "url";
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+
 
 const frontendPath = path.join(__dirname, "../../frontend/dist");
 import express from "express";
@@ -20,6 +19,8 @@ import resumeRoutes from "./routes/resume.routes.js";
 import interviewRoutes from "./routes/interview.routes.js";
 const app = express();
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 // Core application middleware.
 app.use(helmet());
 app.use(cors({ origin: process.env.CORS_ORIGIN || true, credentials: true }));
@@ -40,7 +41,7 @@ app.use("/api/ai/interview", interviewRoutes);
 // Serve React frontend
 app.use(express.static(frontendPath));
 
-app.get("*", (req, res) => {
+app.get("/{*splat}", (req, res) => {
     res.sendFile(path.join(frontendPath, "index.html"));
 });
 // Basic health check for runtime verification.
