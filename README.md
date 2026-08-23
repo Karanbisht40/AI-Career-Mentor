@@ -101,8 +101,6 @@ Practice realistic interviews with:
 
 # 🛠️ Tech Stack
 
-Make this more visual too:
-
 ```markdown
 ## 🛠️ Tech Stack
 

@@ -1,5 +1,11 @@
 // Purpose: Create and configure the Express application for the backend.
 // This file keeps framework setup separate from the server startup logic.
+import path from "path";
+import { fileURLToPath } from "url";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const frontendPath = path.join(__dirname, "../../frontend/dist");
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
@@ -30,6 +36,13 @@ app.use("/api/ai/chat", chatRoutes);
 app.use("/api/ai/resume", resumeRoutes);
 app.use("/api/ai/interview", interviewRoutes);
 
+
+// Serve React frontend
+app.use(express.static(frontendPath));
+
+app.get("*", (req, res) => {
+    res.sendFile(path.join(frontendPath, "index.html"));
+});
 // Basic health check for runtime verification.
 app.get("/health", (req, res) => {
     res.status(200).json({ success: true, message: "API is running." });
