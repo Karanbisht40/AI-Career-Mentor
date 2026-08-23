@@ -160,21 +160,19 @@ AiMentor/
 ```
 ## 📸 Application Preview
 
-<div align="center">
+<p align="center">
+  <img src="./frontend/src/assets/Dashboard.png" width="48%" />
+  <img src="./frontend/src/assets/chat.png" width="48%" />
+</p>
 
-<img src="./screenshots/dashboard.png" width="48%" />
-<img src="./screenshots/roadmap.png" width="48%" />
+<p align="center">
+  <img src="./frontend/src/assets/mock.png" width="48%" />
+  <img src="./frontend/src/assets/resumeAnalyzer.png" width="48%" />
+</p>
 
-<br/>
-
-<img src="./screenshots/chat.png" width="48%" />
-<img src="./screenshots/resume.png" width="48%" />
-
-<br/>
-
-<img src="./screenshots/interview.png" width="70%" />
-
-</div>
+<p align="center">
+  <img src="./frontend/src/assets/roadmap.png" width="48%" />
+</p>
 
 ## Frontend Highlights
 
